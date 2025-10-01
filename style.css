@@ -1,0 +1,119 @@
+*{
+    line-height: 1.6;
+}
+body{
+    background-color: hsl(30, 56%, 92%);
+    line-height: 1.6;
+}
+
+.resep-omelet{
+    background-color: white;
+    padding: 30px;
+    margin: 60px auto;
+    border-radius: 20px;
+    max-width: 650px;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+}
+
+h2, h1{
+    font-family: 'Young Serif', serif;
+}
+
+h1{
+    color: hsl(24, 5%, 18%);
+    font-size: 40px;
+    font-weight: 400;
+}
+
+p, li, table{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+}
+
+hr{
+    background-color: hsl(30, 18%, 87%);
+    border: none;
+    height: 1px;
+    margin: 20px 0;
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;  
+    font-size: 30px; 
+}
+
+li{
+    padding-left: 10px;
+    padding-bottom: 4px;
+}
+
+.prep-time ul{
+    list-style-type: square;
+}
+
+ul li::marker{
+    color: hsl(14, 45%, 36%);
+    font-size: 10px;
+}
+
+.prep-time h2{
+    color: hsl(332, 51%, 32%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+
+.prep-time{
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.prep-time li b{
+    color: hsl(30, 10%, 34%);
+}
+
+ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.nutrition{
+    margin-top: 20px;
+}
+
+.nutrition p{
+    margin-bottom: 15px;
+}
+
+.nutrition table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition td{
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    color: hsl(30, 10%, 34%);
+    text-align: center;
+}
+
+.nutrition td b{
+    color: hsl(14, 45%, 36%);
+}
+
+@media screen and (min-width: 1440px) {
+  .resep-omelet {
+    max-width: 1440px;
+  }
+}
